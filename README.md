@@ -10,7 +10,10 @@
 2. Проведён расчёт каждого товара по ключевым метрикам.
 3. Составлены бизнес-выводы на основе анализа для оптимизации ассортимента и управления запасами.
 
-[Исходных данныe](https://github.com/EvgenyGladyshev/ABC/blob/master/data.xlsx)
+В репозиторий я включил:
+- [Исходных данныe](https://github.com/EvgenyGladyshev/ABC/blob/master/data.xlsx)
+- [Код для проведения ABC-анализа с помощью Pandas](https://github.com/EvgenyGladyshev/ABC/blob/master/abc_analysis.py)
+- []
 
 ## Запуск скрипта
 

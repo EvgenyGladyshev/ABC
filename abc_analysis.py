@@ -1,5 +1,6 @@
 import numpy as np
 import pandas as pd
+import plotly.express as px
 
 # Считываем excel файл с данными 
 df = pd.read_excel('data.xlsx', sheet_name='data')
@@ -58,5 +59,13 @@ df = df.sort_values('abc')
 
 # Оставляем только нужные столбцы
 df = df[['dr_ndrugs', 'dr_kol', 'dr_czak', 'dr_croz', 'abc_revenue', 'abc_amount', 'abc_margin', 'abc']]
+
+# Формируем итоговые наборы групп
+groups = df.groupby('abc')['abc'].agg({'count'}).reset_index()
+groups['percent'] = groups['count']/sum(groups['count'])
+
+# Код для построения графика treemap
+fig = px.treemap(groups, path=["abc"], values="percent")
+fig.show()
 
 print(df)
