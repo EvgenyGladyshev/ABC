@@ -11,7 +11,7 @@
 3. Составлены бизнес-выводы на основе анализа для оптимизации ассортимента и управления запасами.
 
 В репозиторий я включил:
-- [Исходных данныe](https://github.com/EvgenyGladyshev/ABC/blob/master/data.xlsx)
+- [Исходных данныe](https://github.com/EvgenyGladyshev/ABC/blob/master/data.xlsx) (`excel` файл нужно скачать)
 - [Код для проведения ABC-анализа с помощью Pandas](https://github.com/EvgenyGladyshev/ABC/blob/master/abc_analysis.py)
 - [График распределения по группам](https://github.com/EvgenyGladyshev/ABC/blob/master/treemap.png)
 - [Бизнес-выводы и рекомендации](https://github.com/EvgenyGladyshev/ABC/blob/master/insights.md)
