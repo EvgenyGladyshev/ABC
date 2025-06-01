@@ -2,7 +2,7 @@ import numpy as np
 import pandas as pd
 import plotly.express as px
 
-# Считываем excel файл с данными 
+# Считываем csv файл с данными 
 df = pd.read_excel('data.xlsx', sheet_name='data')
 # Форматируем числа float формата
 pd.set_option('display.float_format', '{:.2f}'.format)
